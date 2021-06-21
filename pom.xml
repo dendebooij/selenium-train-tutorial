@@ -8,7 +8,7 @@
   <artifactId>selenium-train-tutorial</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>selenium-train-tutorial</name>
+  <name>selenium-train-traintutorial</name>
   <url>http://maven.apache.org</url>
 
   <properties>

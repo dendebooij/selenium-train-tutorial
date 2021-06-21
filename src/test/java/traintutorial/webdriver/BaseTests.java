@@ -1,11 +1,10 @@
-package tutorial.webdriver;
+package traintutorial.webdriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import net.serenitybdd.core.annotations.findby.By;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

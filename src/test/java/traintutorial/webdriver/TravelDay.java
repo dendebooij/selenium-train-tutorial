@@ -1,4 +1,4 @@
-package tutorial.webdriver;
+package traintutorial.webdriver;
 
 import org.openqa.selenium.By;
 

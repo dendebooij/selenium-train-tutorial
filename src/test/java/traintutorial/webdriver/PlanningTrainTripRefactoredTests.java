@@ -1,5 +1,6 @@
-package tutorial.webdriver;
+package traintutorial.webdriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -20,14 +21,15 @@ import static java.time.LocalTime.*;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
-import static tutorial.webdriver.DeparturePreference.ArriveBefore;
-import static tutorial.webdriver.DeparturePreference.LeaveAfter;
+import static traintutorial.webdriver.DeparturePreference.ArriveBefore;
+import static traintutorial.webdriver.DeparturePreference.LeaveAfter;
 
 public class PlanningTrainTripRefactoredTests {
     WebDriver driver;
 
     @Before
     public void setup() {
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(getChromeOptions());
 
         //implicit waits are not advisable as a waiting strategy. Find a better way.

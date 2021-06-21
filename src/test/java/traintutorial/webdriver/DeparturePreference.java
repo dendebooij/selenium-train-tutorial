@@ -1,4 +1,4 @@
-package tutorial.webdriver;
+package traintutorial.webdriver;
 
 public enum DeparturePreference {
     ArriveBefore, LeaveAfter

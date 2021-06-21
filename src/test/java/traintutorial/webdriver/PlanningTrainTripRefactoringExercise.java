@@ -1,4 +1,4 @@
-package tutorial.webdriver;
+package traintutorial.webdriver;
 
 import net.serenitybdd.core.annotations.findby.By;
 import org.junit.After;
