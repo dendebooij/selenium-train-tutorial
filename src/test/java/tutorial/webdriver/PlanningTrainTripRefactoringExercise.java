@@ -68,30 +68,6 @@ public class PlanningTrainTripRefactoringExercise {
         assertThat("Arrival is on time.", actualArrivalTime.isBefore(expectedArrivalTime));
     }
 
-
-
-
-
-
-//
-//        String arriveOrDepart = new Select(driver.findElement(By.id("SelectArriveDepart"))).getFirstSelectedOption().getText();
-//        String displayedOrigin = driver.findElement(By.id("name_origin")).getAttribute("value");
-//        String displayedDestination = driver.findElement(By.id("name_destination")).getAttribute("value");
-//        String arrivalDay = new Select(driver.findElement(By.id("itdDateDayMonthYear"))).getFirstSelectedOption().getText();
-//        String arrivalHour = new Select(driver.findElement(By.id("selectHour"))).getFirstSelectedOption().getText();
-//        String arrivalMinute = new Select(driver.findElement(By.id("selectMinute"))).getFirstSelectedOption().getText();
-//
-//        assertThat(tripOptions.size(), is(greaterThan(0)));
-//
-//        assertThat(arriveOrDepart, equalTo("arrive before"));
-//        assertThat(displayedOrigin, containsString("Town Hall"));
-//        assertThat(displayedDestination, containsString("Parramatta"));
-//        assertThat(arriveOrDepart, equalTo("arrive before"));
-//        assertThat(arrivalDay, containsString("Tomorrow"));
-//        assertThat(arrivalHour, equalTo("10"));
-//        assertThat(arrivalMinute, equalTo("15"));
-
-
     @After
     public void shutdown() {
         driver.quit();
